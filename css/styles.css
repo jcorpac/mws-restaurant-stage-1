@@ -330,7 +330,6 @@
         margin: 0 0 30px;
         overflow: hidden;
         padding: 0 20px 20px;
-        position: relative;
         width: 85%;
     }
     
@@ -347,6 +346,37 @@
         #restaurants-list li {
             width: calc(50% - 94px);
         }
+        .inside header {
+            position: static;
+        }
+        nav {
+            height: auto;
+        }
+        #breadcrumb {
+            width: auto;
+        }
+        .inside #map-container {
+            top: 100px;
+            height: 300px;
+            width: 100%;
+            position: static;
+        }
+        #restaurant-container {
+            padding: 0 10px 5px;
+            width: auto;
+        }
+        #restaurant-cuisine {
+            width: 100%;
+        }
+        #restaurant-img {
+            width: 100%;
+        }
+        #reviews-container {
+            width: 100%;
+        }
+        .inside #footer {
+            width: auto;
+        }
     }
     /* ========== Tablets or smaller ========== */
     
@@ -358,5 +388,9 @@
             width: 100%;
             margin: 15px 0 15px;
             padding: 0 5px 25px;
+        }
+        #reviews-container {
+            padding: 30px 10px 80px;
+            width: calc(100% - 20px);
         }
     }
