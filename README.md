@@ -1,28 +1,22 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews Mobile Web Project
 
-## Project Overview: Stage 1
+## Table of Contents
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+* [Project Attribution](#attribution)
+* [Dependencies](#dependencies)
+* [Running on a Local Server](#running-on-a-local-server)
 
-### Specification
+## Project Attribution
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+This project is an extension of a [starter project](https://github.com/udacity/mws-restaurant-stage-1) provided by Udacity, as part of their Front End Web Developer NanoDegree program. The starter project provided a working application which presented information on restaurants in New York City. As a student, I was required to update the application to display correctly on mobile web browsers and desktop. I also added a service worker for local data caching, and to make the site compatible with screen readers for accessibility.
 
-### What do I do from here?
+Source code for this project is available at `https://github.com/jcorpac/mws-restaurant-stage-1`
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+## Dependencies
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+The restaurants applciation is built using HTML and JavaScript, and the files required for displaying the site, and its data are included in the repository. The application makes use of the Google Maps application and a connection to the internet is required to display maps on the screen.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and make start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+## Running on a Local Server
+This page is designed to run in any web browser with JavaScript enabled. As such, it can be run from a folder on your local machine, or from any web server. A recommended web server for your local machine is [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en).
 
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+If your computer has the Python interpreter installed on it, you can run the page by running the command line from the project folder and entering `python -m SimpleHTTPServer 8000`. For Python 3.x, you can use `python3 -m http.server 8000`. The page with the portfolio will be available at `http://localhost:8000/`.
